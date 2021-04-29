@@ -22,6 +22,9 @@ void test()
 
 int main()
 {
+    cout << "add" << endl;
+    cout << "456" << endl;
+    cout << "123" << endl;
     test();
     return 0;
 }

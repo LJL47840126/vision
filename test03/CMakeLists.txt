@@ -25,6 +25,8 @@ add_executable(solider_cmake main.cpp src/Gun.cpp src/Solider.cpp)
 # add_compile_options(-wall -std=c++11 -o2)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -o2 -Wall")  # 这两行一样的意思，CMAKE_CXX_FLAGS指的默认的系统编译选项 -g生成带调试信息的
 
+# 生成debug还是release,release无法调试
+set(CMAKE_BUILD_TYPE Debug)
 
 
 
