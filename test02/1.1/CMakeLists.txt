@@ -15,7 +15,7 @@ cmake_minimum_required(VERSION 3.10)
 # 项目名字
 project(SWAP)
 
-# 头文件目录
+# 头文件包含目录
 include_directories(./hdir)
 
 # 生成可执行文件
